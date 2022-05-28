@@ -1,0 +1,157 @@
+.title {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.nav {
+    background-color: #101010;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 3rem;
+    box-sizing: border-box;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.userName {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0 1rem;
+    vertical-align: baseline;
+    font-weight: 700;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 3rem;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #D0CBCB;
+    font-size: 18px;
+}
+
+.result {
+    background-color: #2B2B2B;
+}
+
+.tab {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.tab:hover {
+    cursor: pointer;
+}
+
+.tabFocus {
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 6%;
+    position: relative;
+}
+
+.filter:hover {
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #171717;
+    margin: 0 3rem 1.5rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.detailField{
+    color: #CFCFCF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0.5rem 3.5rem;
+}
+
+.detailEntry {
+    color: #FFFFFF;
+}
+
+.locationDetails{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+    color: #CFCFCF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 30%;
+    word-break: keep-all;
+}
+
+.rideDetails {
+    width: 50%;
+}
+
+.notFound {
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.dropdown {
+    color: #A5A5A5;
+    position: absolute;
+    top: 2rem;
+    right: 0.5rem;
+    background-color: #131313;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    width: 15rem;
+    text-align: center;
+    z-index: 10;
+    height: auto;
+    
+}
+
+.dropdown:hover {
+    cursor: pointer;
+}
+
+.dropdownHeading {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.options {
+    background-color: #2B2B2B;
+    color: #FFFFFF;
+    width: 100%;
+    border: none;
+    padding: 0.8rem 0.2rem;
+    font-size: 18px;
+    border-radius: 0.5rem;
+    margin-top: 0.8rem;
+}
